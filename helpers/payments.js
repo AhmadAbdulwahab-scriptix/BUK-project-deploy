@@ -2,12 +2,12 @@ const crypto = require('crypto');
 
 // Plain naira prices (no currency conversion anywhere)
 const PRICES_Naira = Object.freeze({
-  hosting: 308000,    // Hosting package
-  database: 77000,    // Database service
-  domainCom: 92400,   // .com domain
-  domainNg: 77000,    // .ng domain
-  totalCom: 477400,   // hosting + database + .com domain
-  totalNg: 462000     // hosting + database + .ng domain
+  hosting: 210000,    // Hosting package
+  database: 70000,    // Database service
+  domainCom: 80000,   // .com domain
+  domainNg: 70000,    // .ng domain
+  totalCom: 360000,   // hosting + database + .com domain
+  totalNg: 350000     // hosting + database + .ng domain
 });
 
 const REFERENCE_PATTERN = /^BUK-\d+-[a-f0-9]{24}$/;
